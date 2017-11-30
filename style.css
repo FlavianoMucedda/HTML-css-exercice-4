@@ -1,3 +1,5 @@
+/* Reset CSS */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -40,4 +43,111 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Page main CSS */
+
+nav {
+	color: White;
+	background-color: #5ac2f7;
+	height: 80px;
+	width: 100%;
+	border-bottom: solid 1px #5eccf7;
+	z-index: 999;
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header {
+	color: White;
+	background-color: #5ac2f7;
+	height: 560px;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: flex-start;
+}
+
+.overview {
+	color: Black;
+	background-color: White;
+	height: 900px;
+	width: auto;
+}
+
+.highlights {
+	color: Black;
+	background-color: #eaeaea;
+	height: 350px;
+	width: auto;
+}
+
+.features {
+	color: Black;
+	background-color: White;
+	height: 750px;
+	width: auto;
+}
+
+.download {
+	color: White;
+	background-color: #5ac2f7;
+	height: 250px;
+	width: auto;
+}
+
+footer {
+	color: White;
+	background-color: #55b9ea;
+	height: 50px;
+	width: auto;
+}
+
+/* PAge design CSS */
+
+nav a {
+	color: White;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+nav .menu a {
+	color: White;
+	text-align: right;
+	text-decoration: none;
+	text-transform: capitalize;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+nav .menu {
+margin-left: 200px;
+}
+
+header h1 {
+	font-size: 5.2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 90px;
+
+}
+
+header h3 {
+	font-size: 1.8em;
+	text-transform: capitalize;
+	font-weight: 300;
+	margin-left: 90px;
+}
+
+
+
+
+i {
+	color: #5ac2f7;
 }
