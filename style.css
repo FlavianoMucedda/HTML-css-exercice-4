@@ -81,7 +81,7 @@ header {
 .highlights {
 	color: Black;
 	background-color: #eaeaea;
-	height: 350px;
+	height: 400px;
 	width: auto;
 }
 
@@ -104,7 +104,13 @@ footer {
 	background-color: #55b9ea;
 	height: 50px;
 	width: auto;
+	text-align: center;
+	font-size: 0.7em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 
 /* PAge design CSS */
 
@@ -145,9 +151,210 @@ header h3 {
 	margin-left: 90px;
 }
 
+.overview h2 {
+	text-align: center;
+	margin-top: 120px;
+	font-size: 2.6em;
+	font-weight: 600;
+	color: #333333;
+}
 
+.overview h4 {
+	text-align: center;
+	margin-top: 0.6em;
+	font-size: 1.5em;
+	color: #5f5f5f;
+}
 
+.over_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.crazy, .easy, .super, .awesome {
+	width: 500px;
+	height: 245;
+	text-align: center;
+}
+
+.over_flex .crazy i {
+	font-size: 4.5em;
+	margin-top: 1.3em;
+}
+
+.over_flex .crazy p {
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #515151;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.over_flex .crazy h6 {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+.over_flex .easy i {
+	font-size: 3.2em;
+	margin-top: 1.3em;
+}
+
+.over_flex .easy p {
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #515151;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.over_flex .easy h6 {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+.over_flex .super i {
+	font-size: 3.5em;
+	margin-top: 1.3em;
+}
+
+.over_flex .super p {
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #515151;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.over_flex .super h6 {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+.over_flex .awesome i {
+	font-size: 3.5em;
+	margin-top: 1.3em;
+}
+
+.over_flex .awesome p {
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #515151;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.over_flex .awesome h6 {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+.high_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.high_flex .high_text {
+	margin-left: 6em;
+	margin-top: 6em;
+}
+
+.high_flex .high_text h2 {
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+.high_flex .high_text h4 {
+	font-size: 1.45em;
+	line-height: 2;
+	color: #515151;
+}
+
+.high_flex .high_text h5 {
+	font-size: 1.1em;
+	line-height: 1.5;
+	color: #515151;
+	margin-top: 2.5em;
+}
+
+.high_flex .high_logo {
+	margin-right: 10em;
+	transform: translateY(8em);
+}
+
+.high_flex .high_logo i {
+	font-size: 11em;
+	color: #333;
+}
+
+.features h2{
+	text-align: center;
+	font-size: 2.6em;
+	font-weight: 600;
+	margin-top: 2.5em;
+}
+
+.features h4{
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2.25;
+}
+
+.feat_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.feat {
+	width: 18em;
+	height: 100px;
+	text-align: center;
+	margin-top: 5.5em;
+	line-height: 3em;
+}
+
+.feat i {
+	font-size: 2.5em;
+}
+
+.feat h6 {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.down_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.download .down_flex p {
+	margin-top: 5em;
+	margin-left: 8em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.download .down_flex a {
+	margin-right: 8em;
+	text-decoration: none;
+	color: White;
+	border: solid 1px White;
+	padding: 0.8em;
+	border-radius: 30px;
+}
 
 i {
-	color: #5ac2f7;
+	color: #2cc2f8;
 }
